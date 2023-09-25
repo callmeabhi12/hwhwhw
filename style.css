@@ -1,0 +1,43 @@
+#box1 {
+    position: static;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+
+}
+
+#box2 {
+    position: relative;
+    background-color: aqua;
+    border: 2px solid black;
+    top: 20px;
+    left: 30px;
+
+}
+
+#box3 {
+    position: fixed;
+    background-color: blueviolet;
+    left: 97.5%;
+    bottom: 97%;
+
+}
+
+#box4 {
+    position: absolute;
+    background-color: brown;
+
+
+}
+
+.container {
+    background-color: gray;
+
+}
+
+#box5 {
+    position: sticky;
+    background-color: violet;
+    top: 50px; ;
+    
+}
